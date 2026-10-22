@@ -1,0 +1,30 @@
+{
+  "dataset": "credit_card_fraud_10k",
+  "train_size_original": 8000,
+  "test_size": 2000,
+  "train_class_counts_full": {
+    "0": 7879,
+    "1": 121
+  },
+  "train_size_used": 8000,
+  "train_class_counts_used": {
+    "0": 7879,
+    "1": 121
+  },
+  "test_class_counts": {
+    "0": 1970,
+    "1": 30
+  },
+  "split": "stratified 80%/20% random split",
+  "training_subset": "full training set",
+  "feature_count": 7,
+  "features": [
+    "amount",
+    "transaction_hour",
+    "foreign_transaction",
+    "location_mismatch",
+    "device_trust_score",
+    "velocity_last_24h",
+    "cardholder_age"
+  ]
+}

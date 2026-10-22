@@ -1,0 +1,28 @@
+{
+  "started_utc": "2026-10-22T13:55:46.393297+00:00",
+  "command_arguments": {
+    "data_dir": "data",
+    "kartik_train": null,
+    "kartik_test": null,
+    "european": null,
+    "miadul": null,
+    "miadul_target": null,
+    "european_target": null,
+    "out": "results",
+    "max_train_rows": 200000,
+    "test_size": 0.2,
+    "cv_folds": 0,
+    "rf_trees": 80,
+    "rf_depth": 16,
+    "jobs": 4,
+    "seed": 42
+  },
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pandas": "2.3.3",
+  "numpy": "2.5.4",
+  "scikit_learn": "1.9.1",
+  "imbalanced_learn": "0.14.2",
+  "test_threshold": 0.5,
+  "strategy": "Same dataset split, numeric features, fixed LR/RF parameters, balance training only",
+  "note": "Default capped training is a resource-conscious exploratory experiment; use --max-train-rows 0 for full training."
+}

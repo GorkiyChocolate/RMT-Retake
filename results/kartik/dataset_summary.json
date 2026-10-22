@@ -1,0 +1,37 @@
+{
+  "dataset": "kartik",
+  "train_size_original": 1296675,
+  "test_size": 555719,
+  "train_class_counts_full": {
+    "0": 1289169,
+    "1": 7506
+  },
+  "train_size_used": 200000,
+  "train_class_counts_used": {
+    "0": 198842,
+    "1": 1158
+  },
+  "test_class_counts": {
+    "0": 553574,
+    "1": 2145
+  },
+  "split": "provided chronological train/test files",
+  "training_subset": "stratified train sample of 200,000",
+  "feature_count": 14,
+  "features": [
+    "amt",
+    "city_pop",
+    "lat",
+    "long",
+    "merch_lat",
+    "merch_long",
+    "log1p_amt",
+    "log1p_city_pop",
+    "transaction_hour",
+    "transaction_weekday",
+    "transaction_month",
+    "is_weekend",
+    "cardholder_age",
+    "customer_merchant_km"
+  ]
+}

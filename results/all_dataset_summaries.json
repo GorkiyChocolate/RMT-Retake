@@ -1,0 +1,122 @@
+[
+  {
+    "dataset": "kartik",
+    "train_size_original": 1296675,
+    "test_size": 555719,
+    "train_class_counts_full": {
+      "0": 1289169,
+      "1": 7506
+    },
+    "train_size_used": 200000,
+    "train_class_counts_used": {
+      "0": 198842,
+      "1": 1158
+    },
+    "test_class_counts": {
+      "0": 553574,
+      "1": 2145
+    },
+    "split": "provided chronological train/test files",
+    "training_subset": "stratified train sample of 200,000",
+    "feature_count": 14,
+    "features": [
+      "amt",
+      "city_pop",
+      "lat",
+      "long",
+      "merch_lat",
+      "merch_long",
+      "log1p_amt",
+      "log1p_city_pop",
+      "transaction_hour",
+      "transaction_weekday",
+      "transaction_month",
+      "is_weekend",
+      "cardholder_age",
+      "customer_merchant_km"
+    ]
+  },
+  {
+    "dataset": "Europe_creditcard",
+    "train_size_original": 227845,
+    "test_size": 56962,
+    "train_class_counts_full": {
+      "0": 227451,
+      "1": 394
+    },
+    "train_size_used": 200000,
+    "train_class_counts_used": {
+      "0": 199654,
+      "1": 346
+    },
+    "test_class_counts": {
+      "0": 56864,
+      "1": 98
+    },
+    "split": "stratified 80%/20% random split",
+    "training_subset": "stratified train sample of 200,000",
+    "feature_count": 30,
+    "features": [
+      "Time",
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6",
+      "V7",
+      "V8",
+      "V9",
+      "V10",
+      "V11",
+      "V12",
+      "V13",
+      "V14",
+      "V15",
+      "V16",
+      "V17",
+      "V18",
+      "V19",
+      "V20",
+      "V21",
+      "V22",
+      "V23",
+      "V24",
+      "V25",
+      "V26",
+      "V27",
+      "V28",
+      "Amount"
+    ]
+  },
+  {
+    "dataset": "credit_card_fraud_10k",
+    "train_size_original": 8000,
+    "test_size": 2000,
+    "train_class_counts_full": {
+      "0": 7879,
+      "1": 121
+    },
+    "train_size_used": 8000,
+    "train_class_counts_used": {
+      "0": 7879,
+      "1": 121
+    },
+    "test_class_counts": {
+      "0": 1970,
+      "1": 30
+    },
+    "split": "stratified 80%/20% random split",
+    "training_subset": "full training set",
+    "feature_count": 7,
+    "features": [
+      "amount",
+      "transaction_hour",
+      "foreign_transaction",
+      "location_mismatch",
+      "device_trust_score",
+      "velocity_last_24h",
+      "cardholder_age"
+    ]
+  }
+]

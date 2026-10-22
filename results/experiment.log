@@ -1,0 +1,105 @@
+2026-10-17 16:20:24,531 INFO ===== START DATASET: kartik =====
+2026-10-17 16:20:24,535 INFO Loading data/fraudTrain.csv
+2026-10-17 16:20:26,835 INFO Loading data/fraudTest.csv
+2026-10-17 16:20:28,773 INFO kartik: train used=200000 (fraud=1158); test=555719 (fraud=2145), features=14
+2026-10-17 16:20:28,776 INFO ===== kartik / logistic_regression / original =====
+2026-10-17 16:20:29,599 INFO RESULT F1=0.0000, Recall=0.0000, Precision=0.0000, ROC-AUC=0.8329, PR-AUC(AP)=0.1536, time=0.8s
+2026-10-17 16:20:30,447 INFO ===== kartik / logistic_regression / ros =====
+2026-10-17 16:20:32,051 INFO RESULT F1=0.1624, Recall=0.7315, Precision=0.0914, ROC-AUC=0.8521, PR-AUC(AP)=0.1366, time=1.6s
+2026-10-17 16:20:32,772 INFO ===== kartik / logistic_regression / rus =====
+2026-10-17 16:20:33,309 INFO RESULT F1=0.1644, Recall=0.7287, Precision=0.0926, ROC-AUC=0.8482, PR-AUC(AP)=0.1363, time=0.5s
+2026-10-17 16:20:34,034 INFO ===== kartik / logistic_regression / smote =====
+2026-10-17 16:20:35,567 INFO RESULT F1=0.1666, Recall=0.7296, Precision=0.0941, ROC-AUC=0.8530, PR-AUC(AP)=0.1366, time=1.5s
+2026-10-17 16:20:36,379 INFO ===== kartik / random_forest / original =====
+2026-10-17 16:20:42,886 INFO RESULT F1=0.5107, Recall=0.3800, Precision=0.7784, ROC-AUC=0.9672, PR-AUC(AP)=0.5728, time=6.5s
+2026-10-17 16:20:43,768 INFO ===== kartik / random_forest / ros =====
+2026-10-17 16:20:52,504 INFO RESULT F1=0.4881, Recall=0.6564, Precision=0.3885, ROC-AUC=0.9637, PR-AUC(AP)=0.5309, time=8.7s
+2026-10-17 16:20:53,043 INFO ===== kartik / random_forest / rus =====
+2026-10-17 16:20:54,012 INFO RESULT F1=0.1100, Recall=0.8886, Precision=0.0587, ROC-AUC=0.9722, PR-AUC(AP)=0.3621, time=1.0s
+2026-10-17 16:20:54,760 INFO ===== kartik / random_forest / smote =====
+2026-10-17 16:21:12,335 INFO RESULT F1=0.3802, Recall=0.6937, Precision=0.2619, ROC-AUC=0.9674, PR-AUC(AP)=0.4901, time=17.6s
+2026-10-17 16:21:13,448 INFO ===== START DATASET: european =====
+2026-10-17 16:21:13,448 ERROR Dataset european failed to load
+Traceback (most recent call last):
+  File "/home/biba/Projects/RMT/Assignment 3/run_experiments.py", line 438, in main
+    Xtr, Xte, ytr, yte, info = load_dataset(name, args)
+                               ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/biba/Projects/RMT/Assignment 3/run_experiments.py", line 225, in load_dataset
+    raw = read_csv(path)
+  File "/home/biba/Projects/RMT/Assignment 3/run_experiments.py", line 102, in read_csv
+    raise FileNotFoundError(f"CSV not found: {path}")
+FileNotFoundError: CSV not found: data/creditcard.csv
+2026-10-17 16:21:13,449 INFO ===== START DATASET: miadul =====
+2026-10-17 16:21:13,449 ERROR Dataset miadul failed to load
+Traceback (most recent call last):
+  File "/home/biba/Projects/RMT/Assignment 3/run_experiments.py", line 438, in main
+    Xtr, Xte, ytr, yte, info = load_dataset(name, args)
+                               ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/biba/Projects/RMT/Assignment 3/run_experiments.py", line 225, in load_dataset
+    raw = read_csv(path)
+  File "/home/biba/Projects/RMT/Assignment 3/run_experiments.py", line 102, in read_csv
+    raise FileNotFoundError(f"CSV not found: {path}")
+FileNotFoundError: CSV not found: data/miadul.csv
+2026-10-17 16:21:13,450 INFO Finished: 8 successful experiments, 2 errors. Output: /home/biba/Projects/RMT/Assignment 3/results
+2026-10-22 18:55:46,393 INFO ===== START DATASET: kartik =====
+2026-10-22 18:55:46,397 INFO Loading data/fraudTrain.csv
+2026-10-22 18:55:48,548 INFO Loading data/fraudTest.csv
+2026-10-22 18:55:50,397 INFO kartik: train used=200000 (fraud=1158); test=555719 (fraud=2145), features=14
+2026-10-22 18:55:50,398 INFO ===== kartik / logistic_regression / original =====
+2026-10-22 18:55:51,174 INFO RESULT F1=0.0000, Recall=0.0000, Precision=0.0000, ROC-AUC=0.8329, PR-AUC(AP)=0.1536, time=0.8s
+2026-10-22 18:55:52,007 INFO ===== kartik / logistic_regression / ros =====
+2026-10-22 18:55:53,784 INFO RESULT F1=0.1624, Recall=0.7315, Precision=0.0914, ROC-AUC=0.8521, PR-AUC(AP)=0.1366, time=1.8s
+2026-10-22 18:55:54,534 INFO ===== kartik / logistic_regression / rus =====
+2026-10-22 18:55:55,097 INFO RESULT F1=0.1644, Recall=0.7287, Precision=0.0926, ROC-AUC=0.8482, PR-AUC(AP)=0.1363, time=0.6s
+2026-10-22 18:55:55,819 INFO ===== kartik / logistic_regression / smote =====
+2026-10-22 18:55:57,248 INFO RESULT F1=0.1666, Recall=0.7296, Precision=0.0941, ROC-AUC=0.8530, PR-AUC(AP)=0.1366, time=1.4s
+2026-10-22 18:55:58,064 INFO ===== kartik / random_forest / original =====
+2026-10-22 18:56:04,607 INFO RESULT F1=0.5107, Recall=0.3800, Precision=0.7784, ROC-AUC=0.9672, PR-AUC(AP)=0.5728, time=6.5s
+2026-10-22 18:56:05,496 INFO ===== kartik / random_forest / ros =====
+2026-10-22 18:56:14,363 INFO RESULT F1=0.4881, Recall=0.6564, Precision=0.3885, ROC-AUC=0.9637, PR-AUC(AP)=0.5309, time=8.9s
+2026-10-22 18:56:14,921 INFO ===== kartik / random_forest / rus =====
+2026-10-22 18:56:15,889 INFO RESULT F1=0.1100, Recall=0.8886, Precision=0.0587, ROC-AUC=0.9722, PR-AUC(AP)=0.3621, time=1.0s
+2026-10-22 18:56:16,681 INFO ===== kartik / random_forest / smote =====
+2026-10-22 18:56:34,347 INFO RESULT F1=0.3802, Recall=0.6937, Precision=0.2619, ROC-AUC=0.9674, PR-AUC(AP)=0.4901, time=17.7s
+2026-10-22 18:56:35,499 INFO ===== START DATASET: Europe_creditcard =====
+2026-10-22 18:56:35,499 INFO Loading data/Europe_creditcard.csv
+2026-10-22 18:56:36,448 INFO Europe_creditcard: selected 30 numeric features: ['Time', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'V10', 'V11', 'V12', 'V13', 'V14', 'V15', 'V16', 'V17', 'V18', 'V19', 'V20', 'V21', 'V22', 'V23', 'V24', 'V25', 'V26', 'V27', 'V28', 'Amount']
+2026-10-22 18:56:36,552 INFO Europe_creditcard: train used=200000 (fraud=346); test=56962 (fraud=98), features=30
+2026-10-22 18:56:36,553 INFO ===== Europe_creditcard / logistic_regression / original =====
+2026-10-22 18:56:37,296 INFO RESULT F1=0.7241, Recall=0.6429, Precision=0.8289, ROC-AUC=0.9541, PR-AUC(AP)=0.7439, time=0.7s
+2026-10-22 18:56:37,506 INFO ===== Europe_creditcard / logistic_regression / ros =====
+2026-10-22 18:56:39,355 INFO RESULT F1=0.1185, Recall=0.9082, Precision=0.0634, ROC-AUC=0.9740, PR-AUC(AP)=0.7199, time=1.9s
+2026-10-22 18:56:39,587 INFO ===== Europe_creditcard / logistic_regression / rus =====
+2026-10-22 18:56:40,088 INFO RESULT F1=0.0993, Recall=0.8980, Precision=0.0525, ROC-AUC=0.9685, PR-AUC(AP)=0.4487, time=0.5s
+2026-10-22 18:56:40,293 INFO ===== Europe_creditcard / logistic_regression / smote =====
+2026-10-22 18:56:42,058 INFO RESULT F1=0.1087, Recall=0.9082, Precision=0.0578, ROC-AUC=0.9740, PR-AUC(AP)=0.7068, time=1.8s
+2026-10-22 18:56:42,357 INFO ===== Europe_creditcard / random_forest / original =====
+2026-10-22 18:57:02,734 INFO RESULT F1=0.8667, Recall=0.7959, Precision=0.9512, ROC-AUC=0.9813, PR-AUC(AP)=0.8661, time=20.4s
+2026-10-22 18:57:02,975 INFO ===== Europe_creditcard / random_forest / ros =====
+2026-10-22 18:57:21,527 INFO RESULT F1=0.8404, Recall=0.8061, Precision=0.8778, ROC-AUC=0.9652, PR-AUC(AP)=0.8611, time=18.6s
+2026-10-22 18:57:21,682 INFO ===== Europe_creditcard / random_forest / rus =====
+2026-10-22 18:57:22,168 INFO RESULT F1=0.1521, Recall=0.8980, Precision=0.0831, ROC-AUC=0.9728, PR-AUC(AP)=0.7169, time=0.5s
+2026-10-22 18:57:22,361 INFO ===== Europe_creditcard / random_forest / smote =====
+2026-10-22 18:57:58,602 INFO RESULT F1=0.7642, Recall=0.8265, Precision=0.7105, ROC-AUC=0.9792, PR-AUC(AP)=0.8380, time=36.2s
+2026-10-22 18:57:58,997 INFO ===== START DATASET: credit_card_fraud_10k =====
+2026-10-22 18:57:58,997 INFO Loading data/credit_card_fraud_10k.csv
+2026-10-22 18:57:59,006 INFO credit_card_fraud_10k: excluding non-numeric or empty columns: ['merchant_category']
+2026-10-22 18:57:59,006 INFO credit_card_fraud_10k: selected 7 numeric features: ['amount', 'transaction_hour', 'foreign_transaction', 'location_mismatch', 'device_trust_score', 'velocity_last_24h', 'cardholder_age']
+2026-10-22 18:57:59,010 INFO credit_card_fraud_10k: train used=8000 (fraud=121); test=2000 (fraud=30), features=7
+2026-10-22 18:57:59,010 INFO ===== credit_card_fraud_10k / logistic_regression / original =====
+2026-10-22 18:57:59,032 INFO RESULT F1=0.6667, Recall=0.6000, Precision=0.7500, ROC-AUC=0.9950, PR-AUC(AP)=0.8148, time=0.0s
+2026-10-22 18:57:59,184 INFO ===== credit_card_fraud_10k / logistic_regression / ros =====
+2026-10-22 18:57:59,213 INFO RESULT F1=0.4167, Recall=1.0000, Precision=0.2632, ROC-AUC=0.9927, PR-AUC(AP)=0.7203, time=0.0s
+2026-10-22 18:57:59,368 INFO ===== credit_card_fraud_10k / logistic_regression / rus =====
+2026-10-22 18:57:59,386 INFO RESULT F1=0.3974, Recall=1.0000, Precision=0.2479, ROC-AUC=0.9938, PR-AUC(AP)=0.7420, time=0.0s
+2026-10-22 18:57:59,537 INFO ===== credit_card_fraud_10k / logistic_regression / smote =====
+2026-10-22 18:57:59,563 INFO RESULT F1=0.4444, Recall=0.9333, Precision=0.2917, ROC-AUC=0.9933, PR-AUC(AP)=0.7374, time=0.0s
+2026-10-22 18:57:59,820 INFO ===== credit_card_fraud_10k / random_forest / original =====
+2026-10-22 18:57:59,947 INFO RESULT F1=0.9286, Recall=0.8667, Precision=1.0000, ROC-AUC=1.0000, PR-AUC(AP)=1.0000, time=0.1s
+2026-10-22 18:58:00,073 INFO ===== credit_card_fraud_10k / random_forest / ros =====
+2026-10-22 18:58:00,223 INFO RESULT F1=0.9655, Recall=0.9333, Precision=1.0000, ROC-AUC=1.0000, PR-AUC(AP)=1.0000, time=0.1s
+2026-10-22 18:58:00,345 INFO ===== credit_card_fraud_10k / random_forest / rus =====
+2026-10-22 18:58:00,453 INFO RESULT F1=0.2643, Recall=1.0000, Precision=0.1523, ROC-AUC=0.9979, PR-AUC(AP)=0.9300, time=0.1s
+2026-10-22 18:58:00,583 INFO ===== credit_card_fraud_10k / random_forest / smote =====
+2026-10-22 18:58:00,796 INFO RESULT F1=0.9062, Recall=0.9667, Precision=0.8529, ROC-AUC=0.9994, PR-AUC(AP)=0.9539, time=0.2s
+2026-10-22 18:58:01,102 INFO Finished: 24 successful experiments, 0 errors. Output: /home/biba/Projects/RMT/Assignment 3/results
