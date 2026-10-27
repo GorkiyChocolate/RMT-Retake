@@ -1,16 +1,4 @@
 #!/usr/bin/env python3
-"""Reproducible 3-dataset credit-card fraud resampling benchmark.
-
-Datasets:
-  kartik: official fraudTrain.csv + fraudTest.csv (predefined chronological split)
-  european: mlg-ulb creditcard.csv
-  miadul: user-provided Miadul CSV (schema detected at runtime)
-
-Experimental factors: original, ROS, RUS, SMOTE x logistic regression, random forest.
-Resampling, imputation and scaling are fit only on training data (within each CV fold).
-Categorical values are deliberately excluded from vanilla-SMOTE experiments: the
-study focuses on valid numeric input features, including engineered numeric features.
-"""
 from __future__ import annotations
 
 import argparse
